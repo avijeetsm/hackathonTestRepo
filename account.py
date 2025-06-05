@@ -1,3 +1,4 @@
+#comment
 class Account:
     def __init__(self, account_id, owner, balance, currency):
         self.account_id = account_id
