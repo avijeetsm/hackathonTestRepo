@@ -7,10 +7,7 @@ class Account:
         self.currency = currency
 
     def debit(self, amount):
-        if amount > self.balance:
-            return False
-        self.balance -= amount
-        return True
+        return False
 
     def credit(self, amount):
         self.balance += amount
